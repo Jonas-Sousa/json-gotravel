@@ -1,9 +1,76 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+"Fotos": [
+    {
+      "id": 1,
+      "imagem": "assets/images/rj.jpg",
+      "titulo": "Rio de janeiro",
+      "subTitulo": "A cidade mais bela do Brasil",
+      "favorito": true
+    },
+    {
+      "id": 2,
+      "imagem": "assets/images/foto-teste.jpg",
+      "titulo": "Suiça",
+      "subTitulo": "A cidade do melhor chocolate do mundo",
+      "favorito": true
+    },
+    {
+      "id": 3,
+      "imagem": "assets/images/japao.png",
+      "titulo": "Tokio",
+      "subTitulo": "A cidade mais iluminada do Mundo",
+      "favorito": true
+    },
+    {
+      "id": 1,
+      "imagem": "assets/images/rj.jpg",
+      "titulo": "Rio de janeiro",
+      "subTitulo": "A cidade mais bela do Brasil",
+      "favorito": true
+    },
+    {
+      "id": 2,
+      "imagem": "assets/images/foto-teste.jpg",
+      "titulo": "Suiça",
+      "subTitulo": "A cidade do melhor chocolate do mundo",
+      "favorito": true
+    },
+    {
+      "id": 3,
+      "imagem": "assets/images/japao.png",
+      "titulo": "Tokio",
+      "subTitulo": "A cidade mais iluminada do Mundo",
+      "favorito": true
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "email": "mariadasdores@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "name": "Clarice",
+      "email": "claricesousa@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "name": "Jonas",
+      "sobrenome": "Sousa dos Santos Salgado",
+      "dataDeNascimento": "1998-03-05",
+      "email": "jonassousagtr@gmail.com",
+      "password": "Jonas1234",
+      "id": 3
+    },
+    {
+      "name": "Beatriz",
+      "sobrenome": "Felisberto Ramos Dos Santos",
+      "dataDeNascimento": "1998-08-03",
+      "email": "bearamosjc@gmail.com",
+      "password": "1234",
+      "id": 4
+    }
   ],
-  "profile": { "name": "typicode" }
 }
